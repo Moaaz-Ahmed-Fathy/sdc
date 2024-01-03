@@ -1,0 +1,115 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(13, 176, 187);
+}
+
+header{
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+nav{
+    border-bottom: 1px solid #333;
+    padding-bottom: 0px;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    margin-left: 18vw;
+}
+
+li{
+    display: inline;
+    margin-left: 2vw;
+}
+
+.nav_btn{
+    width: 13vw;
+    height: 2vw;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #333; 
+    color: #a0c2079e;
+    ; 
+}
+
+#Slider{
+    display: flex;
+    overflow: hidden;
+    width: 75%;
+}
+
+#Clothes, #Shoes, #Bags, #Watches{
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+
+.product1, .product2{
+    margin-left: 4vw;
+    margin-top: 2vw;
+    border: 1px solid #333; 
+    width: 30vw;
+    height: 20vw;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+span{
+    margin-left: 12px;
+    font-size: medium;
+    color: #333;
+}
+
+
+footer{
+    display: flex;;
+    margin-top: 11vw;
+    border-top: 1px solid #333; 
+}
+
+#Branches, #Contacts, #Accounts{
+    width: 20vw;
+    margin-left: 3vw;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+
+table{
+margin-inline-end: ;
+}
+
+
+
+#mn{
+    margin-left: 4vw;
+    margin-top: 5vw;
+    border: 1px solid #333; 
+    width: 500px;
+    height: 20vw;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+
+#cvd
+{
+    margin-right: 2vw ;  
+    border-radius: 10px;
+    background-color: rgb(169, 183, 169);
+    border: 1px solid firebrick ;
+    height: 20vw ;
+    width: 500px ;
+}

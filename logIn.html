@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="./style/logIn.css">
+</head>
+<body>
+    <div class="silder">
+            <!-- Log in -->
+        <div class="LogIn" id="LogIn">
+            <h2>Log In From</h2>
+            <!-- User Name -->
+            <label for="user_name_LogIn">User Name</label>
+            <input type="text" class="input" id="user_name_LogIn">
+            <br>
+            <br>
+            <!-- Password -->
+            <label for="password_LogIn">Password</label>
+            <input type="password" class="input" id="password_LogIn">
+            <button class="submit_btns" onclick="LogIn_btn()" >Log In</button>
+            <br>
+            <br>
+            <a href="#Forget_Password">Forget Password</a>
+        </div>
+
+            <!-- SignUp -->
+        <div class="SignUp">
+            <h2>Sign Up From</h2>
+            <!-- User Name -->
+            <label for="user_name_SignUp">User Name</label>
+            <input type="text" class="input" id="user_name_SignUp">
+            <br>
+            <br>
+            <!-- Password -->
+            <label for="password_SignUp">Password</label>
+            <input type="password" class="input" id="password_SignUp">
+            <br>
+            <br>
+            <!-- Age -->
+            <label for="Age_SignUp">Age</label>
+            <input type="text" class="input" id="Age_SignUp">
+            <br>
+            <br>
+            <!-- Gender -->
+            <label for="">Gender:  </label>    Male:
+            <input type="radio" name="Gender">     Female:
+            <input type="radio" name="Gender">
+            <br>
+            <br>
+            <!-- Phone Number -->
+            <label for="Phone_SignUp">Phone</label>
+            <input type="text" class="input" id="Phone_SignUp">
+            <input type="button" value="Sign Up" class="submit_btns" onclick="SignUp_btn()">
+        </div>
+        <!-- Forget Password -->
+        <div class="Forget_Password" id="Forget_Password">
+            <h2>Forget Password From</h2>
+            <!-- User Name -->
+            <label for="user_name_ForgetPassword">User Name</label>
+            <input type="text" class="input" id="user_name_ForgetPassword">
+            <br>
+            <br>
+            <!-- Password -->
+            <label for="password_ForgetPassword">Password</label>
+            <input type="password" class="input" id="password_ForgetPassword">
+            <button class="submit_btns" onclick="Forget_Password_btn()">Reset</button>
+        </div>
+    </div>
+    <button class="Navigation_btn" onclick="LogIn_Navigation_btn()">Log In</button>
+    <button style="margin-left: 15vw;" class="Navigation_btn" onclick="SignUp_Navigation_btn()">Sign Up</button>
+    <script src="./script/logIn.js"></script>
+</body>
+</html>
